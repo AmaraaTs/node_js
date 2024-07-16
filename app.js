@@ -66,3 +66,6 @@ console.log("New array 2 ", newArray);
 
 const filteredArray = ranks.filter((val) => val > 7);
 console.log("Filtered array ", filteredArray);
+
+const reduceArray = ranks.reduce((pV, cV) => pV + cV, 0);
+console.log("Reduce array ", reduceArray);
